@@ -9,7 +9,8 @@ namespace DMSLogParser
     {
         static void Main(string[] args)
         {
-            
+            string logFilePath = string.Empty; // Set it before running the app.
+            DMSLogParser.BeginParsing(logFilePath);
         }
     }
 }
